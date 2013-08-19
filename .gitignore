@@ -1,0 +1,40 @@
+# git ignore file
+
+# Visual Studio Solution preference files.
+*.suo
+*.sdf
+*.opensdf
+*.vcxproj.user
+*.ncrunchsolution
+*.ncrunchsolution.user
+*.DotSettings.user
+*.userprefs
+*.vsmdi
+*.csproj.user
+
+*.tlog
+
+# Build output
+bin/
+obj/
+*.ipch
+*.idl
+*.tlb
+*.mrg.h
+
+# Development stuff
+*.swp
+tags
+FILES
+junk
+*.out
+
+# Windows image thumbnail cache file
+Thumbs.db
+
+# NDepends utility
+NDependOut/
+*.ndproj
+
+*.pidb
+
