@@ -6,7 +6,7 @@ using OpenRasta20Site.Handlers;
 
 namespace OpenRasta20Site
 {
-    public class Configuration 
+    public class Configuration : IConfigurationSource
     {
         public void Configure()
         {
