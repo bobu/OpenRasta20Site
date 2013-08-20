@@ -42,13 +42,18 @@
   <ItemGroup>
     <Reference Include="OpenRasta, Version=2.0.3.0, Culture=neutral, PublicKeyToken=e04bf464d7caae73, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\ThirdParty\OpenRasta\OpenRasta.dll</HintPath>
+      <HintPath>..\lib\OpenRasta\OpenRasta.dll</HintPath>
     </Reference>
-    <Reference Include="OpenRasta.Codecs.WebForms">
-      <HintPath>..\..\..\ThirdParty\OpenRasta\OpenRasta.Codecs.WebForms.dll</HintPath>
+    <Reference Include="OpenRasta.Codecs.WebForms, Version=2.0.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\OpenRasta\OpenRasta.Codecs.WebForms.dll</HintPath>
     </Reference>
-    <Reference Include="OpenRasta.Hosting.AspNet">
-      <HintPath>..\..\..\ThirdParty\OpenRasta\OpenRasta.Hosting.AspNet.dll</HintPath>
+    <Reference Include="OpenRasta.DI.Windsor">
+      <HintPath>..\lib\OpenRasta\OpenRasta.DI.Windsor.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenRasta.Hosting.AspNet, Version=2.0.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\OpenRasta\OpenRasta.Hosting.AspNet.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
